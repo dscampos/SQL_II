@@ -1,9 +1,9 @@
 /*
-Autor: Dirson S Campos
- Procedimento do tipo trigger (gatilho) em PL/pgSQL
-A trigger garante que quando é inserida ou atualizada uma linha na tabela, 
-fica sempre registrado nesta linha o usuário que efetuou a inserção ou a atualização, e quando isto ocorreu. 
-Além disso, o gatilho verifica se é fornecido o nome do empregado, e se o valor do salário é um número positivo.
+Author: Dirson S. Campos
+  Trigger stored procedure in PL / pgSQL
+The trigger guarantees that when a row is inserted or updated in the table, 
+the user who performed the insertion or update is always registered in this row, and when this occurred.
+In addition, the trigger checks that the employee's name is provided, and that the salary value is a positive number.
 */
 
 DROP TABLE IF EXISTS emp;
