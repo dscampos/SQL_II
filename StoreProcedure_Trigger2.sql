@@ -1,5 +1,5 @@
 /*
-Author: Dirson S Campos
+Author: Dirson S Campos 
 Stored procedure of trigger type in PL / pgSQL to record insertion and update
 However, unlike the previous trigger made available in file (StoreProcedure_Trigger1.sql).
 The creation and update of the row are recorded in different columns.
