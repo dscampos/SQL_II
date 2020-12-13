@@ -1,4 +1,5 @@
 /*
+Autor: Dirson S Campos
  Procedimento do tipo trigger (gatilho) em PL/pgSQL
 A trigger garante que quando é inserida ou atualizada uma linha na tabela, 
 fica sempre registrado nesta linha o usuário que efetuou a inserção ou a atualização, e quando isto ocorreu. 
